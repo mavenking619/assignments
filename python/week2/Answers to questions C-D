@@ -1,0 +1,28 @@
+QUESTION C : the output seems to be an IP adress 127.0.0.1
+QUEDSTION D: Flush=false is actually be default, when you want something to show immediately with no delay in between of what youre doing. For example , if you were to write coming soon.. with the periods after coming soon showing up with a delay, then you would use flush=true to add a delay.
+QUESTION E: the print() output triggers this because by default ,  especially on a terminal, it starts a new line, making it look like youcommanded it to flush it immediately.
+
+
+CHALLENGES:  figuring out the difference in using multiple print outputs and single outputs.
+I also had to do some reseearch to find out why and when using the flush command is necessary and when it doesnt matter.It was a little hard getting to understad each command
+
+i coded a small message for my girlfriend as well..
+
+
+
+import time
+print("HI DULCE!!")
+print("YOU LIKE MY 1ST COMPUTER PROGRAM? ITS A MESSAGE TO YOU :)")
+time.sleep(2)
+print("just know.",end='')
+time.sleep(3)
+print(".")
+print("that")
+time.sleep(3)
+print("i")
+time.sleep(2)
+print("LOOOOVE")
+time.sleep(6)
+print("YOU!!!!!!!")
+time.sleep(2)
+print(":)")
