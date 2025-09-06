@@ -27,3 +27,10 @@ the answer is 27 which i verified using PEMDAS(Parenthasis,Exponents,Multiplicat
 expression = (3 - 1) ** 2 * 6 + 3
 
 print(f"The expression is: {expression}")
+
+
+
+
+CHALLENGES: EVERYTHING about this lab was confusing. I had to resort to old-school math class memories (Please Excuse My Dear Aunt Sally), to remember the proper sequence of mathThe comman TYPE() was also very confusing because i was expecting to be a command where it would actually type the word similiar
+to print()
+but the biggest challenge for me was being able to do the actual math in my head to get the final answer from Python. 
