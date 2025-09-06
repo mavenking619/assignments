@@ -1,0 +1,29 @@
+5
+2.5
+3
+6.0
+True
+True
+HelloWorld
+blablabla
+54
+14.0
+1
+-2 2 512
+
+data type
+1.string
+2.you cannot add a string and and number
+3. or decimal number
+4. this is a string, in python.
+5.type(500) is a whole number, or integer=500
+6. either a true or false anser:bool
+7. this is the same thing as a text inside qoutation marks. its a string.
+
+operator precedence
+(3 - 1) ** 2 * 6 + 3
+the answer is 27 which i verified using PEMDAS(Parenthasis,Exponents,Multiplication,Divison) :
+
+expression = (3 - 1) ** 2 * 6 + 3
+
+print(f"The expression is: {expression}")
