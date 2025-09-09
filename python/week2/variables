@@ -1,0 +1,72 @@
+VARIABLES LAB
+
+-Variables Memory Usage
+
+var1=10
+print(hex(id(var1)))
+var1=100
+print(hex(id(var1)))
+
+
+these are the addresses: 
+0x7ff9920f74c8
+0x7ff9920f8008
+
+There are 2 different addresses because by changin var1=10 to var1=100, I basically changed the 
+location of where to look. 10 was cached, but it wont use it because of pointing it to a new
+direction. 
+
+var2=100
+print(hex(id(var2))
+
+address:0x7ff9920f8008
+
+it used the same address as var1=100, because Python interns snall integers. 
+so anytime I assign 100 to any variable, it'll point it in that location.
+
+
+MEMORY MAP
+
+#0x7ff992107130, Char=H
+#0x7ff9921070a0, Char=E
+#0x7ff9921071f0, Char=L
+#0x7ff9921071f0, Char=L
+#0x7ff992107280, Char=O
+
+0x7ff992107400, Char=W
+0x7ff992107280, Char=0
+0x7ff992107310, Char=R
+0x7ff9921071f0, Char=L
+0x7ff992107070, Char=D
+
+Problem Solving
+
+Dog + Cat
+The dog chases the cat
+DOG DOG DOG DOG
+
+
+x = 50
+x = x + 1
+print(x) 
+
+TROUBLESHOOTING
+A: nothing to troubleshoot here, it is a valid command since assigning a string
+hello is allowed. They are all letters.
+
+B:_var=100 this ia variable name which must contain letters and underscores 
+only. everything is by the book.
+
+C:!var_1 = 200, there are no exclamation points allowed in the name of the variable
+
+D:print = "print me", this is basically rewriting the basic "print command
+when i plugged this into python it didnt give me an answer.
+
+E. False = 0 , this is a bad command because false is a keyword and cant assign an address
+
+
+CHALLENGES
+
+Honestly , troubleshooting without using Python was the hardest part for me.
+And being able to understand that although var1=100 and var=100 was the same address was confusing until i did more research to understand
+that 100 is a pre-written address that Python just uses to assign!
