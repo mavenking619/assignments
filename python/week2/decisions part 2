@@ -1,0 +1,69 @@
+percent = float(input("Enter your course percentage (0-100): "))
+  percent = float(input("Enter your course percentage (0-100): "))
+if percent < 0 or percent > 100:
+    print("Invalid input. Please enter a number between 0 and 100.")
+    if percent > 90:
+        grade = "A"
+        description = "Work of genuinely superior quality."
+    elif percent >= 80:
+        grade = "B"
+        description = "Passing performance falls approximately in the upper distribution of passing grades."
+    elif percent >= 71:
+        grade = "C"
+        description = "Passing performance falls approximately in the center of the distribution of all passing grades."
+    elif percent >= 65:
+        grade = "D"
+        description = "Passing performance falls approximately in the lower distribution of passing grades."
+    else:
+        grade = "F"
+        description = "Failing performance that does not satisfy the basic requirements of the course and needs to be improved in significant ways."
+
+    print(f"\nYour grade: {grade}")
+    print(f"Description: {description}")
+
+
+          # --------------------------------------------------
+# Input Section
+# --------------------------------------------------
+operator = input("Enter a logical operator (and, or, not): ").strip().lower()
+
+# --------------------------------------------------
+# Truth Table Generation
+# --------------------------------------------------
+print("\nTruth Table for operator:", operator.upper())
+print("--------------------------------")
+
+if operator == "and":
+    print("A\tB\tA AND B")
+    for A in [True, False]:
+        for B in [True, False]:
+            result = A and B
+            print(f"{A}\t{B}\t{result}")
+
+elif operator == "or":
+    print("A\tB\tA OR B")
+    for A in [True, False]:
+        for B in [True, False]:
+            result = A or B
+            print(f"{A}\t{B}\t{result}")
+
+elif operator == "not":
+    print("A\tNOT A")
+    for A in [True, False]:
+        result = not A
+        print(f"{A}\t{result}")
+
+else:
+    print("Invalid operator. Please enter 'and', 'or', or 'not'.")
+
+
+
+number = int(input("Enter an integer: "))
+
+ - Odd numbers end in 1 (in binary), so number & 1 == 1
+
+if number & 1 == 0:
+    print(f"{number} is even.")
+else:
+    print(f"{number} is odd.")
+
