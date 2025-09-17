@@ -1,7 +1,9 @@
+**Write a program that prompts the user to enter the weight of a person in kilograms and outputs the equivalent weight in pounds. (Note that 1 kilogram = 2.2 pounds).**
+```python
 kilograms = float(input("Enter weight in kilograms: "))
 pounds = kilograms * 2.2
 print(f"{kilograms} kilograms is equal to {pounds:.2f} pounds.")
-
+```
 
 netBalance = float(input("Enter net balance: "))
 payment = float(input("Enter payment: "))
